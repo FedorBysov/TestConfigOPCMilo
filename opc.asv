@@ -1,0 +1,3 @@
+clear, clc
+serverList = opcuaserverinfo('opc.tcp://WIN-A5SE79QKVGU:12686/milo')
+uaClient= opcua('localhost=, port)
